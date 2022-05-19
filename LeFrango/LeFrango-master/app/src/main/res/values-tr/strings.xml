@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Umut Ağacı</string>
+    <string name="no_network_connectivity">İnternet bağlantısı bulunamadı</string>
+    <string name="menu_home">Anasayfa</string>
+    <string name="menu_second">İkinci</string>
+    <string name="menu_more">Daha fazla</string>
+    <string name="error_occurred">Hata oluştu</string>
+    <string name="ok">Tamam</string>
+    <string name="splash_text">Yeni Nesil\nGezinme Yolu</string>
+
+    <!--OnBoarding-->
+    <string name="skip">Atla</string>
+    <string name="finish">Bitir</string>
+    <string name="onboarding_continue">Devam</string>
+    <string name="description1">Dünyanın Yükünü Birlikte Sırtlayalım!</string>
+    <string name="description2">Bir Fidan Dik, Bir Hayat Kurtar.</string>
+    <string name="description3">Aramıza Katıl, Geleceği Kurtar.</string>
+
+    <!-- Login Screen -->
+    <string name="hi">Merhaba!</string>
+    <string name="sign_in">Giriş yapın</string>
+    <string name="birth_date_not_valid">Doğum günü geçerli değil</string>
+    <string name="tckn_not_valid">TCKN geçerli değil</string>
+    <string name="name_is_empty">Ad boş olamaz</string>
+    <string name="surname_is_empty">Soyad boş olamaz</string>
+    <string name="login_screen_desc">Kontrolü elden bırakmamak için TCKN ve şifrenizi girin.</string>
+    <string name="email">E-posta</string>
+    <string name="name">Ad</string>
+    <string name="surname">Soyad</string>
+    <string name="password">Şifre</string>
+    <string name="birthdate">Doğum Tarihi</string>
+    <string name="forgot_password"><u>Şifremi Unuttum</u></string>
+    <string name="login">Giriş Yap</string>
+    <string name="dont_have_an_account">Hesabın yok mu?</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="sign_in_with_google">Google ile giriş yap</string>
+    <string name="email_validation_error">Geçersiz e-posta</string>
+    <string name="wrong_password">Hatalı şifre</string>
+
+    <!-- Signup Screen -->
+    <string name="sign_up">Kayıt olun</string>
+    <string name="signup_screen_desc">Kontrolü ele almak için TCKN ve şifrenizi girin.</string>
+    <string name="user_agreement_text"><u>Kullanıcı sözleşmesini</u> okudum ve onaylıyorum.</string>
+    <string name="already_have_an_account">Zaten hesabın var mı?</string>
+    <string name="your_email_address_verify">E-posta adresinizi doğrulayın</string>
+    <string name="your_email_address_verify_text">%s e-posta adresinize doğrulama linki gönderdik.\n\nDevam etmek için maillerinizi kontrol edin ve doğrulama linkine tıklayın.</string>
+
+    <!-- Forgot Password Screens -->
+    <string name="forgot_password_title">Şifrenizi sıfırlayın</string>
+    <string name="forgot_password_subtitle">Şifrenizi sıfırlamak için bir bağlantı göndereceğiz. E-posta adresinizi girin.</string>
+    <string name="send">Gönder</string>
+    <string name="check_your_mail">Mailinizi kontrol edin</string>
+    <string name="check_your_mail_text">E-posta adresinize şifreni sıfırlayabilmek için bir bağlantı gönderdik. Maillerini kontrol et.</string>
+    <string name="back_to_the_login_screen"><u>Giriş yap ekranına geri dön</u></string>
+    <string name="password_match_error">Şifreler uyuşmuyor</string>
+    <string name="password_length_validation">En az 8 haneli</string>
+    <string name="create_new_password">Yeni şifre oluşturun</string>
+    <string name="new_password">Yeni Şifre</string>
+    <string name="new_password_again">Yeni Şifre Tekrarı</string>
+    <string name="create_password">Şifre Oluştur</string>
+    <string name="password_changed_success">Şifreniz başarıyla değiştirilmiştir.</string>
+
+    <!-- Home Screen -->
+    <string name="type_message">Bir mesaj yaz..</string>
+    <string name="help_normal">Yardım Etmek İstiyorum</string>
+    <string name="welcome">Hoşgeldin\n%s!</string>
+
+    <string name="pick_country">İl seçiniz!</string>
+</resources>

@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Umut Ağacı</string>
+    <string name="no_network_connectivity">Internet connection not found</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_second">Second</string>
+    <string name="menu_more">More</string>
+    <string name="error_occurred">Error occurred</string>
+    <string name="ok">OK</string>
+    <string name="splash_text">New Generation\nJourney Road</string>
+
+    <!--OnBoarding-->
+    <string name="skip">Skip</string>
+    <string name="finish">Finish</string>
+    <string name="onboarding_continue">Continue</string>
+    <string name="description1">Let\'s shoulder the burden of the world together!</string>
+    <string name="description2">Plant a Seedling, Save a Life.</string>
+    <string name="description3">Join Us, Save the Future.</string>
+
+    <!-- Login Screen -->
+    <string name="hi">Hello!</string>
+    <string name="birth_date_not_valid">Birth Date Not Valid</string>
+    <string name="name_is_empty">Name cannot be Empty</string>
+    <string name="tckn_not_valid">TCKN Not Valid</string>
+    <string name="surname_is_empty">Surname cannot be Empty</string>
+    <string name="tckn">TCKN</string>
+    <string name="name">Name </string>
+    <string name="surname">Surname </string>
+    <string name="sign_in">Sign In</string>
+    <string name="login_screen_desc">Enter TCKN and password to keep you in control.</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="create_your_profile_date_formatting">ddmmyyyy</string>
+    <string name="birthdate">Birth Date</string>
+    <string name="forgot_password"><u>Forgot password</u></string>
+    <string name="login">Login</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="email_validation_error">Invalid email</string>
+    <string name="wrong_password">Wrong password</string>
+
+    <!-- Signup Screen -->
+    <string name="sign_up">Sign up</string>
+    <string name="signup_screen_desc">To take control enter your TCKN address and password.</string>
+    <string name="user_agreement_text">I have read and accept the <u>user agreement.</u></string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="your_email_address_verify">Your e-mail address verify</string>
+    <string name="your_email_address_verify_text">We have sent a verification link to your %s e-mail address.\n\nCheck your emails and click the verification link to continue.</string>
+
+    <!-- Forgot Password Screens -->
+    <string name="forgot_password_title">Reset your password</string>
+    <string name="forgot_password_subtitle">We will send you a link to reset your password. Enter your e-mail address.</string>
+    <string name="send">Send</string>
+    <string name="check_your_mail">Check your mail</string>
+    <string name="check_your_mail_text">To be able to reset your password to your e-mail address, we sent the link. Check your mails.</string>
+    <string name="back_to_the_login_screen"><u>Back to the login screen</u></string>
+    <string name="password_match_error">Passwords do not match</string>
+    <string name="password_length_validation">At least 8 digits</string>
+    <string name="create_new_password">Create new password</string>
+    <string name="new_password">New Password</string>
+    <string name="new_password_again">New Password Again</string>
+    <string name="create_password">Create Password</string>
+    <string name="password_changed_success">Your password has been successfully changed.</string>
+
+    <!-- Home Screen -->
+    <string name="type_message">Type a Message..</string>
+    <string name="help_normal">I Want Help</string>
+    <string name="welcome">Welcome\n%s!</string>
+
+    <!--Details Screen -->
+    <string name="pick_country">Pick a country!</string>
+    <string-array name="countrys">
+        <item>Seçiniz</item>
+        <item>istanbul</item>
+        <item>kocaeli</item>
+       <item>adana</item>
+       <item>adıyaman</item>
+       <item>afyonkarahisar</item>
+       <item>ağrı</item>
+       <item>amasya</item>
+       <item>ankara</item>
+       <item>antalya</item>
+       <item>artvin</item>
+       <item>aydın</item>
+       <item>balıkesir</item>
+       <item>bilecik</item>
+       <item>bingöl</item>
+       <item>bitlis</item>
+        <item>bolu</item>
+        <item>burdur</item>
+        <item>bursa</item>
+        <item>çanakkale</item>
+       <item>çankırı</item>
+       <item>çorum</item>
+       <item>denizli</item>
+       <item>diyarbakır</item>
+       <item>edirne</item>
+       <item>elazığ</item>
+       <item>erzincan</item>
+       <item>erzurum</item>
+       <item>eskişehir</item>
+       <item>gaziantep</item>
+       <item>giresun</item>
+       <item>gümüşhane</item>
+       <item>hakkâri</item>
+       <item>hatay</item>
+       <item>ısparta</item>
+       <item>mersin</item>
+       <item>izmir</item>
+       <item>kars</item>
+       <item>kastamonu</item>
+       <item>kayseri</item>
+       <item>kırklareli</item>
+       <item>kırşehir</item>
+       <item>konya</item>
+       <item>kütahya</item>
+       <item>malatya</item>
+       <item>manisa</item>
+       <item>kahramanmaraş</item>
+       <item>mardin</item>
+       <item>muğla</item>
+       <item>muş</item>
+       <item>nevşehir</item>
+       <item>niğde</item>
+       <item>ordu</item>
+       <item>rize</item>
+       <item>sakarya</item>
+       <item>samsun</item>
+       <item>siirt</item>
+       <item>sinop</item>
+       <item>sivas</item>
+       <item>tekirdağ</item>
+       <item>tokat</item>
+       <item>trabzon</item>
+       <item>tunceli</item>
+       <item>şanlıurfa</item>
+       <item>uşak</item>
+       <item>van</item>
+       <item>yozgat</item>
+       <item>zonguldak</item>
+       <item>aksaray</item>
+       <item>bayburt</item>
+       <item>karaman</item>
+       <item>kırıkkale</item>
+       <item>batman</item>
+       <item>şırnak</item>
+       <item>bartın</item>
+       <item>ardahan</item>
+       <item>ığdır</item>
+       <item>yalova</item>
+       <item>karabük</item>
+       <item>kilis</item>
+       <item>osmaniye</item>
+       <item>düzce</item>
+
+    </string-array>
+
+</resources>

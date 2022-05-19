@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.arthas.lefrango.ui.menu.home.HomeViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/cvNeu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="2:3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:neumorph_inset="12dp"
+            app:neumorph_insetBottom="12dp"
+            app:neumorph_insetEnd="12dp"
+            app:neumorph_insetStart="12dp"
+            app:neumorph_insetTop="12dp"
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shadowElevation="4dp"
+            app:neumorph_shapeAppearance="@style/ShapeAppearance.Neumorph.CardView"
+            app:neumorph_shapeType="flat">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <soup.neumorphism.NeumorphImageView
+                    android:id="@+id/ivRestaurantIcon"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="50dp"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintBottom_toTopOf="@+id/cvNeuFoodList"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/cvNeuFoodList"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:neumorph_inset="12dp"
+                    app:neumorph_insetBottom="12dp"
+                    app:neumorph_insetEnd="12dp"
+                    app:neumorph_insetStart="12dp"
+                    app:neumorph_insetTop="12dp"
+                    app:neumorph_lightSource="rightBottom"
+                    app:neumorph_shadowColorDark="@color/dark_app_color"
+                    app:neumorph_shadowColorLight="@color/bluee_app_color"
+                    app:neumorph_shadowElevation="2dp"
+                    app:neumorph_shapeAppearance="@style/ShapeAppearance.Neumorph.ImageView"
+                    app:neumorph_shapeType="basin" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/ivExpand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/ic_close_expand"
+                    android:translationZ="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <soup.neumorphism.NeumorphCardView
+                    android:id="@+id/cvNeuFoodList"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/ivRestaurantIcon"
+                    app:neumorph_backgroundColor="@color/bluee_app_color"
+                    app:neumorph_inset="12dp"
+                    app:neumorph_insetBottom="12dp"
+                    app:neumorph_insetEnd="12dp"
+                    app:neumorph_insetStart="12dp"
+                    app:neumorph_insetTop="12dp"
+                    app:neumorph_lightSource="rightBottom"
+                    app:neumorph_shadowColorDark="@color/dark_app_color"
+                    app:neumorph_shadowColorLight="@color/middle_app_color"
+                    app:neumorph_shadowElevation="1dp"
+                    app:neumorph_shapeAppearance="@style/ShapeAppearance.Neumorph.CardView"
+                    app:neumorph_shapeType="pressed">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tvRestaurantName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:gravity="start"
+                            android:padding="20dp"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:neumorph_lightSource="rightTop"
+                            app:neumorph_shadowElevation="4dp"
+                            app:neumorph_shapeAppearance="@style/ShapeAppearance.Neumorph.CardView"
+                            app:neumorph_shapeType="pressed" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnRegister"
+                            style="@style/LeFrangoOutlinedButton"
+                            android:layout_width="200dp"
+                            android:layout_height="42dp"
+                            android:layout_marginBottom="20dp"
+                            android:text="Bağış Yap"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </soup.neumorphism.NeumorphCardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

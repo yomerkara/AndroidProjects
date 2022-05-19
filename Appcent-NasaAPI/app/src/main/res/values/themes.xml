@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Nasa" parent="Theme.AppCompat.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/md_teal_A100</item>
+        <item name="colorPrimaryVariant">@color/light_app_color</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/middle_app_color</item>
+        <item name="colorSecondaryVariant">@color/middle_app_color</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/light_app_color</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

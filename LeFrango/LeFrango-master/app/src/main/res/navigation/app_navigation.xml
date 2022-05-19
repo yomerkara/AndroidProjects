@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/menu_home">
+
+    <fragment
+        android:id="@+id/menu_home"
+        android:name="com.arthas.lefrango.ui.menu.home.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/menu_second"
+        android:name="com.arthas.lefrango.ui.menu.details.DetailsFragment"
+        android:label="ExaminationFragment" />
+    <fragment
+        android:id="@+id/menu_more"
+        android:name="com.arthas.lefrango.ui.menu.more.MoreFragment"
+        android:label="MoreFragment" />
+
+</navigation>

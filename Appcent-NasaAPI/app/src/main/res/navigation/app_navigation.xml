@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/menu_curiosity">
+
+    <fragment
+        android:id="@+id/menu_curiosity"
+        android:name="com.arthas.nasa.ui.menu.curiosity.CuriosityFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/menu_opportunity"
+        android:name="com.arthas.nasa.ui.menu.opportunity.OpportunityFragment"
+        android:label="ExaminationFragment" />
+    <fragment
+        android:id="@+id/menu_spirit"
+        android:name="com.arthas.nasa.ui.menu.spirit.SpiritFragment"
+        android:label="MoreFragment" />
+
+</navigation>

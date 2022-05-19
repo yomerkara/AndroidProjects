@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nasa Case Study</string>
+    <string name="no_network_connectivity">İnternet bağlantısı bulunamadı</string>
+    <string name="error_occurred">Hata oluştu</string>
+    <string name="ok">Tamam</string>
+
+    <!--OnBoarding-->
+    <string name="skip">Atla</string>
+    <string name="finish">Bitir</string>
+    <string name="onboarding_continue">Devam</string>
+    <string name="description1">Zorluklardan, yıldızlara...</string>
+    <string name="description2">Güçlü şeylere cesaret et!</string>
+
+</resources>

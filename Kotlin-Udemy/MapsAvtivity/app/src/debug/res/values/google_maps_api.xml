@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=EB:5B:D6:F3:1D:B2:B1:B0:03:2C:0A:3F:B1:04:88:B6:5D:C0:50:05%3Bcom.example.mapsavtivity
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.example.mapsavtivity
+
+    SHA-1 certificate fingerprint:
+    EB:5B:D6:F3:1D:B2:B1:B0:03:2C:0A:3F:B1:04:88:B6:5D:C0:50:05
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD3FQqDrmtKcI3RPap9cHJIdVHpvN4ChOQ</string>
+</resources>

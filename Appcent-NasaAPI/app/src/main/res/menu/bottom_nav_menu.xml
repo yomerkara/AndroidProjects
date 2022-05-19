@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_curiosity"
+        android:icon="@drawable/ic_spaceshipleft"
+        android:menuCategory="alternative"
+        android:title="Curiosity" />
+
+    <item
+        android:id="@+id/menu_opportunity"
+        android:icon="@drawable/ic_spaceshipmiddle"
+        android:menuCategory="alternative"
+        android:title="Opportunity" />
+
+    <item
+        android:id="@+id/menu_spirit"
+        android:icon="@drawable/ic_spaceshipright"
+        android:menuCategory="alternative"
+        android:title="Spirit" />
+
+</menu>

@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.Notes" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+    </style>
+</resources>

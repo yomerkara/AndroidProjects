@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010102"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/query2btn"
+        android:layout_width="132dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#611B1B"
+        android:onClick="query2"
+        android:text="QUERY 2"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/query3btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/query1btn" />
+
+    <Button
+        android:id="@+id/query1btn"
+        android:layout_width="132dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#611B1B"
+        android:onClick="query1"
+        android:text="QUERY 1"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/query2btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="145dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="47dp"
+        android:gravity="center"
+        android:text="WELCOME!"
+        android:textColor="#611B1B"
+        android:textSize="20sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/query1btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobilequeries" />
+
+    <TextView
+        android:id="@+id/mobilequeries"
+        android:layout_width="363dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="31dp"
+        android:gravity="center"
+        android:text="MOBILE QUERIES"
+        android:textColor="#611B1B"
+        android:textSize="36sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/welcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/query3btn"
+        android:layout_width="132dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="#611B1B"
+        android:onClick="query3"
+        android:text="QUERY 3"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/query2btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

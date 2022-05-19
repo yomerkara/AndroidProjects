@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Nasa Case Study</string>
+    <string name="no_network_connectivity">Internet connection not found</string>
+    <string name="error_occurred">Error occurred</string>
+    <string name="ok">OK</string>
+
+    <!--OnBoarding-->
+    <string name="skip">Skip</string>
+    <string name="finish">Finish</string>
+    <string name="onboarding_continue">Continue</string>
+    <string name="description1">From challenges to stars...</string>
+    <string name="description2">Dare mighty things!</string>
+
+</resources>

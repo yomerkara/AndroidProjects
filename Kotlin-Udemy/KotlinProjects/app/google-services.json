@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "355837305548",
+    "firebase_url": "https://tripdata-6f6a8-default-rtdb.firebaseio.com",
+    "project_id": "tripdata-6f6a8",
+    "storage_bucket": "tripdata-6f6a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355837305548:android:15b80fd0441a9e92ead869",
+        "android_client_info": {
+          "package_name": "com.feyzademirel.mobilequeries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355837305548-unpsgippq5t6gkikjsbfr2jio0ff50t3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLUps67vDfyojgysYCgmwv0GBukrQ1lwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355837305548-unpsgippq5t6gkikjsbfr2jio0ff50t3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

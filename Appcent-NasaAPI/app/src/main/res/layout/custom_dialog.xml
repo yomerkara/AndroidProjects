@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="400dp"
+    android:layout_height="700dp"
+    android:background="@drawable/bg_button_outlined1"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+
+    app:neumorph_shadowElevation="4dp"
+    app:neumorph_shapeType="flat">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:neumorph_shapeType="basin">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivClose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/ic_back"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivShip"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDateInfo"
+            style="@style/SemiBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:"
+            android:textColor="@color/gray_text_color"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/tvShipName"
+            app:layout_constraintEnd_toStartOf="@id/tvDate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivShip" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDate"
+            style="@style/SemiBold"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="6dp"
+            android:gravity="start"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/tvDateInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvDateInfo"
+            app:layout_constraintTop_toTopOf="@id/tvDateInfo" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvShipNameInfo"
+            style="@style/SemiBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textColor="@color/gray_text_color"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/tvCam"
+            app:layout_constraintEnd_toStartOf="@id/tvShipName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvDate" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvShipName"
+            style="@style/SemiBold"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="6dp"
+            android:gravity="start"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/tvShipNameInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvShipNameInfo"
+            app:layout_constraintTop_toTopOf="@id/tvShipNameInfo" />
+
+        <TextView
+            android:id="@+id/tvCamInfo"
+            style="@style/SemiBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cam:"
+            android:textColor="@color/gray_text_color"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/tvStatus"
+            app:layout_constraintEnd_toStartOf="@id/tvCam"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvShipName" />
+
+        <TextView
+            android:id="@+id/tvCam"
+            style="@style/SemiBold"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="6dp"
+            android:gravity="start"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/tvCamInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvCamInfo"
+            app:layout_constraintTop_toTopOf="@id/tvCamInfo" />
+
+        <TextView
+            android:id="@+id/tvStatusInfo"
+            style="@style/SemiBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status:"
+            android:textColor="@color/gray_text_color"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@id/tvFlightDate"
+            app:layout_constraintEnd_toStartOf="@id/tvStatus"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvCam" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            style="@style/SemiBold"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="6dp"
+            android:gravity="start"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/tvStatusInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvStatusInfo"
+            app:layout_constraintTop_toTopOf="@id/tvStatusInfo" />
+
+        <TextView
+            android:id="@+id/tvFlightDateInfo"
+            style="@style/SemiBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Launch/Land Times:"
+            android:textColor="@color/gray_text_color"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tvFlightDate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvStatus" />
+
+        <TextView
+            android:id="@+id/tvFlightDate"
+            style="@style/SemiBold"
+            android:textColor="@color/black"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="start"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvFlightDateInfo"
+            app:layout_constraintTop_toBottomOf="@id/tvStatus" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

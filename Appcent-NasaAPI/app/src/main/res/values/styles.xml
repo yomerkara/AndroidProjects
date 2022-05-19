@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="android:statusBarColor">#fff</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">#ffff</item>
+
+        <item name="android:navigationBarColor">#448AFF</item>
+
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="titleTextStyle">@style/MyTitleTextStyle</item>
+    </style>
+
+    <style name="MyTitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="NasaSolidButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:background">@drawable/bg_button_solid</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="NasaOutlinedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:background">@drawable/bg_button_outlined</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/dark_app_color</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Medium">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="Regular">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="SemiBold">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+
+    <style name="Medium.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Medium.13">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Medium.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Medium.15">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Medium.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Medium.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Medium.23">
+        <item name="android:textSize">23sp</item>
+    </style>
+
+    <style name="Regular.10">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Regular.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Regular.13">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Regular.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Regular.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Regular.23">
+        <item name="android:textSize">23sp</item>
+    </style>
+
+    <style name="Regular.34">
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="SemiBold.13">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="SemiBold.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Medium.12.DarkAppColor">
+        <item name="android:textColor">@color/dark_app_color</item>
+    </style>
+
+    <style name="Medium.12.TextAppColor">
+        <item name="android:textColor">@color/text_app_color</item>
+    </style>
+
+    <style name="Medium.12.TextHintAppColor">
+        <item name="android:textColor">@color/text_hint_app_color</item>
+    </style>
+
+    <style name="Medium.13.TextAppColor">
+        <item name="android:textColor">@color/text_app_color</item>
+    </style>
+
+    <style name="Medium.13.DarkAppColor">
+        <item name="android:textColor">@color/dark_app_color</item>
+    </style>
+
+    <style name="Medium.13.DarkBlueAppColor">
+        <item name="android:textColor">@color/dark_blue_app_color</item>
+    </style>
+
+    <style name="Medium.13.GrayTextColor">
+        <item name="android:textColor">@color/gray_text_color</item>
+    </style>
+
+    <style name="Medium.14.TextAppColor">
+        <item name="android:textColor">@color/text_app_color</item>
+    </style>
+
+    <style name="Medium.14.DarkBlueAppColor">
+        <item name="android:textColor">@color/dark_blue_app_color</item>
+    </style>
+
+    <style name="Medium.14.DarkAppColor">
+        <item name="android:textColor">@color/dark_app_color</item>
+    </style>
+
+    <style name="Medium.16.DarkBlueAppColor">
+        <item name="android:textColor">@color/dark_blue_app_color</item>
+    </style>
+
+    <style name="Medium.15.DarkAppColor">
+        <item name="android:textColor">@color/dark_app_color</item>
+    </style>
+
+    <style name="Medium.16.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Medium.16.DarkAppColor">
+        <item name="android:textColor">@color/dark_app_color</item>
+    </style>
+
+    <style name="Medium.16.SemiGrayBlackAppColor">
+        <item name="android:textColor">@color/semi_gray_black_app_color</item>
+    </style>
+
+    <style name="Medium.18.BlueAppColor">
+        <item name="android:textColor">@color/blue_app_color</item>
+    </style>
+
+    <style name="Medium.23.TextAppColor">
+        <item name="android:textColor">@color/text_app_color</item>
+    </style>
+
+    <style name="Medium.23.DarkAppColor">
+        <item name="android:textColor">@color/dark_app_color</item>
+    </style>
+
+    <style name="Regular.10.TextHintAppColor">
+        <item name="android:textColor">@color/text_hint_app_color</item>
+    </style>
+
+    <style name="Regular.12.TextAppColor">
+        <item name="android:textColor">@color/text_app_color</item>
+    </style>
+
+    <style name="Regular.12.DarkBlueAppColor">
+        <item name="android:textColor">@color/dark_blue_app_color</item>
+    </style>
+
+    <style name="Regular.12.GrayAppColor">
+        <item name="android:textColor">@color/gray_app_color</item>
+    </style>
+
+    <style name="Regular.12.SemiBlackAppColor">
+        <item name="android:textColor">@color/semi_gray_black_app_color</item>
+    </style>
+
+    <style name="Regular.13.TextAppColor">
+        <item name="android:textColor">@color/text_app_color</item>
+    </style>
+
+    <style name="Regular.13.DarkAppColor">
+        <item name="android:textColor">@color/dark_app_color</item>
+    </style>
+
+    <style name="Regular.13.GrayAppColor">
+        <item name="android:textColor">@color/gray_app_color</item>
+    </style>
+
+    <style name="Regular.13.GrayTextAppColor">
+        <item name="android:textColor">@color/gray_text_color</item>
+    </style>
+
+    <style name="Regular.14.TextAppColor">
+        <item name="android:textColor">@color/text_app_color</item>
+    </style>
+
+    <style name="Regular.14.DarkAppColor">
+        <item name="android:textColor">@color/dark_app_color</item>
+    </style>
+
+    <style name="Regular.14.SemiBlackAppColor">
+        <item name="android:textColor">@color/semi_gray_black_app_color</item>
+    </style>
+
+    <style name="Regular.16.TextAppColor">
+        <item name="android:textColor">@color/text_app_color</item>
+    </style>
+
+    <style name="Regular.16.BlueAppColor">
+        <item name="android:textColor">@color/blue_app_color</item>
+    </style>
+
+    <style name="Regular.16.SemiBlackAppColor">
+        <item name="android:textColor">@color/semi_gray_black_app_color</item>
+    </style>
+
+    <style name="Regular.16.DarkTitleAppColor">
+        <item name="android:textColor">@color/dark_blue_app_color</item>
+    </style>
+
+    <style name="Regular.16.DarkBlueAppColor">
+        <item name="android:textColor">@color/dark_blue_app_color</item>
+    </style>
+
+    <style name="Regular.23.TextAppColor">
+        <item name="android:textColor">@color/text_app_color</item>
+    </style>
+
+    <style name="Regular.34.BlueAppColor">
+        <item name="android:textColor">@color/blue_app_color</item>
+    </style>
+
+    <style name="SemiBold.13.DarkAppColor">
+        <item name="android:textColor">@color/dark_app_color</item>
+    </style>
+
+    <style name="SemiBold.13.BlueAppColor">
+        <item name="android:textColor">@color/blue_app_color</item>
+    </style>
+
+    <style name="SemiBold.13.GrayAppColor">
+        <item name="android:textColor">@color/gray_app_color</item>
+    </style>
+
+    <style name="SemiBold.14.DarkAppColor">
+        <item name="android:textColor">@color/dark_app_color</item>
+    </style>
+
+</resources>
